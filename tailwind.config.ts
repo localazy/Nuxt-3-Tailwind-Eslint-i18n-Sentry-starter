@@ -3,7 +3,7 @@ import { Config } from 'tailwindcss';
 export default <Config> {
   content: [
     './modules/**/*.{vue,js,ts}',
-    'app.vue'
+    './app.vue'
   ],
   theme: {
     extend: {},
