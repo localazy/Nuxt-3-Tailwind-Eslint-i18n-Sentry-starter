@@ -17,5 +17,9 @@
     "nuxt": "3.0.0-rc.6",
     "tailwindcss": "^3.1.6",
     "vite-plugin-eslint": "^1.7.0"
+  },
+  "dependencies": {
+    "@sentry/tracing": "^7.8.0",
+    "@sentry/vue": "^7.8.0"
   }
 }
