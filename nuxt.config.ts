@@ -9,5 +9,13 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-  ]
+    '@intlify/nuxt3'
+  ],
+  intlify: {
+    localeDir: 'lang',
+    vueI18n: {
+      locale: 'en',
+      fallbackLocale: 'en'
+    }
+  }
 })
